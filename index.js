@@ -22,11 +22,11 @@ function nowServing(katzDeli){
 function currentLine(line){
   var line = []
   let i = 0
-  for (i < katzDeli.length){
+  for (i < line.length){
     line.push(`${i + 1}. ${line[i]}`)
     i++
   }
-  if (katzDeli.length === 0){
+  if (line.length === 0){
     return "The line is currently empty."
   }
   else {
