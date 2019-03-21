@@ -33,4 +33,3 @@ function currentLine(line){
     return "The line is currently: " + line
   }
 }
-currentLine(["Bill", "Jane", "Ann"])
