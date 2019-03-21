@@ -19,10 +19,10 @@ function nowServing(katzDeli){
   }
 }
 
-function currentLine(line){
+function currentLine(katzDeli){
   var line = []
   let i = 0
-  for (i < line.length){
+  for (i < katzDeli.length){
     line.push(`${i + 1}. ${line[i]}`)
     i++
   }
