@@ -22,7 +22,7 @@ function nowServing(katzDeli){
 function currentLine(line){
   var line = []
   let i = 0
-  while (i < katzDeli.length){
+  for (i < katzDeli.length){
     line.push(`${i+1}. ${katzDeli[i]}`)
     i++
   }
