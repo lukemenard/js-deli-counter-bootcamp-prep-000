@@ -23,7 +23,7 @@ function currentLine(line){
   var line = []
   let i = 0
   for (i < katzDeli.length){
-    line.push(`${i + 1}. ${katzDeli[i]}`)
+    line.push(`${i + 1}. ${line[i]}`)
     i++
   }
   if (katzDeli.length === 0){
